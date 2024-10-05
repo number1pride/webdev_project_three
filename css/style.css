@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+#main-header {
+    background: linear-gradient(to bottom, #4a90e2, #007aff);
+    color: #fff;
+    /* 20px equivalent: */
+    padding: 1.25rem 0;
+    text-align: center;
+}
+
+#main-navbar {
+    background-color: #007aff;
+    /* 10px equivalent */
+    padding: 0.625rem 0;
+}
+
+.container {
+    width: 80%;
+    /* 1200px equivalent */
+    max-width: 75rem;
+    margin: 0 auto;
+    /* 20px equivalent */
+    padding: 0 1.25rem;
+}
+
+#main-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#main-navbar ul li {
+    display: inline;
+    /* 15px equivalent */
+    margin: 0 0.9375rem;
+}
+
+#main-navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#main-navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+#content-wrapper {
+    background-color: #fff;
+    /* 20px equivalent */
+    padding: 1.25rem;
+    /* 10px equivalent */
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    /* 20px equivalent */
+    margin-top: 1.25rem;
+    /* 8px equivalent */
+    border-radius: 0.5rem;
+}
+
+#main-content h2 {
+    color: #007aff;
+}
+
+#main-content h3 {
+    color: #007aff;
+}
+
+#main-footer {
+    background-color: #4a90e2;
+    color: #fff;
+    text-align: center;
+    /* 10px equivalent */
+    padding: 0.625rem 0;
+    /* 20px equivalent */
+    margin-top: 1.25rem;
+}
+
+#main-footer p {
+    margin: 0;
+}
+
+#main-navbar #onpage {
+    text-decoration: underline;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    #main-navbar ul {
+        display: block;
+        text-align: center;
+    }
+
+    #main-navbar ul li {
+        float: none;
+        margin-bottom: 0.625rem;
+        /* 10px equivalent */
+    }
+}

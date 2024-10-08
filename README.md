@@ -2,7 +2,7 @@
 
 ## My notes
 
-- [Project Repo](https://github.com/number1pride/webdev_project_two_b)
+- [Project Repo](https://github.com/number1pride/webdev_project_three)
 - [Project Live Link](https://number1pride.github.io/webdev_project_two_b/)
 
 ## Project Description
